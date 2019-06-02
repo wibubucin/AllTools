@@ -7,15 +7,6 @@ And this is collection of several developments that have been carried out so far
 
 ----
 
-### Installation
-
-```
-$ git clone https://github.com/masokky/instagram-tools.git
-$ cd instagram-tools
-$ node index.js
-```
-
-----
 
 ### Features
 
@@ -39,11 +30,3 @@ $ node index.js
 * Delete All Media
 
 ----
-
-### Thanks to
-
-* CODE BY CYBER SCREAMER CCOCOT (ccocot@bc0de.net)
-* FIXING & TESTING BY SYNTAX (@officialputu_id)
-* CCOCOT.CO | BC0DE.NET | NAONLAH.NET | WingkoColi
-* SGB TEAM REBORN | Zerobyte.id | ccocot@bc0de.net
-* RMT by Mas Okky (@masokky_)
