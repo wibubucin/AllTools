@@ -1,5 +1,5 @@
 <?php
-// Created By : Gidhan Bagus Algary
+// Created By : Raul Arrafi
 // Header
 $secret = '83415d06-ec4e-11e6-a41b-6c40088ab51e';
 $headers = array();
@@ -9,8 +9,8 @@ $headers[] = "X-Uniqueid: ac94e5d0e7f3f".rand(111,999);
 $headers[] = 'X-Location: -6.405821,106.064193';
 // Menu
 echo "\n=======================\n";
-echo "      GOFOOD BAIK99\n";
-echo "    By : XRAWLX\n";
+echo "  Gojek Tools BAIK99\n";
+echo "    By : XrawllX\n";
 echo "=======================\n";
 echo "1. Register (Akun Baru)\n";
 echo "2. Login (Akun Lama)\n";
@@ -112,7 +112,7 @@ function nama()
 	curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
 	$ex = curl_exec($ch);
 	// $rand = json_decode($rnd_get, true);
-	preg_match_all('~(&bull; (.*?)<br/>&bull; )~', $ex, $name);
+	preg_match_all('(&bull; (.*?)<br/>&bull; )', $ex, $name);
 	return $name[2][mt_rand(0, 14) ];
 	}
 function curl($url, $fields = null, $headers = null)
